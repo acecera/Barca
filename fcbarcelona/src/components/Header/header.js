@@ -1,5 +1,6 @@
 import React from 'react';
-import { Navbar } from 'react-bootstrap/Navbar';
+import ReactDOM from 'react-dom';
+import Navbar from 'react-bootstrap/Navbar';
 
 const Header = () => {
     return (
@@ -7,12 +8,12 @@ const Header = () => {
             <Navbar.Brand href="#home">
             <img
                 alt=""
-                src="/logo.svg"
+                src="././././public/images/fcb_logo.png"
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
             />
-            {' React Bootstrap'}
+            {' FC Barcelona'}
             </Navbar.Brand>
         </Navbar>
     )
