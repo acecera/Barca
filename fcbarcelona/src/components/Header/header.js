@@ -1,14 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Navbar from 'react-bootstrap/Navbar';
+import './header.css';
 
 const Header = () => {
     return (
         <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="#home" className="Navbar.Brand">
             <img
                 alt=""
-                src="././././public/images/fcb_logo.png"
+                href="./././public/images/FC_Barcelona.svg"
+                src="./././public/images/FC_Barcelona.svg"
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
