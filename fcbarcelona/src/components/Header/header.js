@@ -8,8 +8,8 @@ const Header = () => {
             <Navbar.Brand href="#home" className="Navbar.Brand">
             <img
                 alt=""
-                href="./././public/images/FC_Barcelona.svg"
-                src="./././public/images/FC_Barcelona.svg"
+                href="../../../public/images/FC_Barcelona.svg"
+                src="../../../public/images/FC_Barcelona.svg"
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
